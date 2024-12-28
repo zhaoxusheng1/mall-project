@@ -1,0 +1,337 @@
+16:46:02:113  INFO 22676 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=27172d74-f42e-3d47-aaa3-7bc0f707fb77
+16:46:02:293  INFO 22676 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:46:02:294  INFO 22676 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springApplicationContextProvider' of type [io.seata.spring.boot.autoconfigure.provider.SpringApplicationContextProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:46:02:295  INFO 22676 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:46:02:403  INFO 22676 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'failureHandler' of type [io.seata.tm.api.DefaultFailureHandlerImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:46:02:409  INFO 22676 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:46:02:412  INFO 22676 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:46:02:413  INFO 22676 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$566/0x0000000801120fb0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:46:02:414  INFO 22676 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:46:02:435  INFO 22676 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springCloudAlibabaConfiguration' of type [io.seata.spring.boot.autoconfigure.properties.SpringCloudAlibabaConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:46:02:441  INFO 22676 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'seataProperties' of type [io.seata.spring.boot.autoconfigure.properties.SeataProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:46:02:445  INFO 22676 --- [main] i.s.s.b.a.SeataAutoConfiguration         : Automatically configure Seata
+16:46:02:601  INFO 22676 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+16:46:02:616  INFO 22676 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+16:46:02:816  INFO 22676 --- [main] i.s.s.a.GlobalTransactionScanner         : Initializing Global Transaction Clients ... 
+16:46:03:044  INFO 22676 --- [main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+16:46:03:634  INFO 22676 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 40d50f27-15c3-41d1-9bd0-d696fabd41ba
+16:46:03:635  INFO 22676 --- [main] com.alibaba.nacos.common.remote.client   : [40d50f27-15c3-41d1-9bd0-d696fabd41ba] RpcClient init label, labels = {module=naming, source=sdk}
+16:46:03:639  INFO 22676 --- [main] com.alibaba.nacos.common.remote.client   : [40d50f27-15c3-41d1-9bd0-d696fabd41ba] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+16:46:03:640  INFO 22676 --- [main] com.alibaba.nacos.common.remote.client   : [40d50f27-15c3-41d1-9bd0-d696fabd41ba] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+16:46:03:641  INFO 22676 --- [main] com.alibaba.nacos.common.remote.client   : [40d50f27-15c3-41d1-9bd0-d696fabd41ba] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+16:46:03:642  INFO 22676 --- [main] com.alibaba.nacos.common.remote.client   : [40d50f27-15c3-41d1-9bd0-d696fabd41ba] Try to connect to server on start up, server: {serverIp = '192.168.116.132', server main port = 8848}
+16:46:03:818  INFO 22676 --- [main] com.alibaba.nacos.common.remote.client   : [40d50f27-15c3-41d1-9bd0-d696fabd41ba] Success to connect to server [192.168.116.132:8848] on start up, connectionId = 1722501972745_192.168.116.1_57338
+16:46:03:819  INFO 22676 --- [main] com.alibaba.nacos.common.remote.client   : [40d50f27-15c3-41d1-9bd0-d696fabd41ba] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+16:46:03:819  INFO 22676 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [40d50f27-15c3-41d1-9bd0-d696fabd41ba] Notify connected event to listeners.
+16:46:03:819  INFO 22676 --- [main] com.alibaba.nacos.common.remote.client   : [40d50f27-15c3-41d1-9bd0-d696fabd41ba] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$477/0x0000000801002998
+16:46:03:913 ERROR 22676 --- [main] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:46:03:914  INFO 22676 --- [main] i.s.s.a.GlobalTransactionScanner         : Transaction Manager Client is initialized. applicationId[item-service] txServiceGroup[hmall]
+16:46:03:940  INFO 22676 --- [main] io.seata.rm.datasource.AsyncWorker       : Async Commit Buffer Limit: 10000
+16:46:03:941  INFO 22676 --- [main] i.s.rm.datasource.xa.ResourceManagerXA   : ResourceManagerXA init ...
+16:46:03:976  INFO 22676 --- [main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+16:46:03:982  INFO 22676 --- [main] i.s.s.a.GlobalTransactionScanner         : Resource Manager is initialized. applicationId[item-service] txServiceGroup[hmall]
+16:46:03:983  INFO 22676 --- [main] i.s.s.a.GlobalTransactionScanner         : Global Transaction Clients are initialized. 
+16:46:03:989  INFO 22676 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:46:04:401  INFO 22676 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [40d50f27-15c3-41d1-9bd0-d696fabd41ba] Receive server push request, request = NotifySubscriberRequest, requestId = 35
+16:46:04:404  INFO 22676 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [40d50f27-15c3-41d1-9bd0-d696fabd41ba] Ack server push request, request = NotifySubscriberRequest, requestId = 35
+16:46:04:791  INFO 22676 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+16:46:04:793  INFO 22676 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+16:46:04:793  INFO 22676 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+16:46:04:794  INFO 22676 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+16:46:04:794  INFO 22676 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16:46:04:801  INFO 22676 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+16:46:04:841  INFO 22676 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+16:46:04:841  INFO 22676 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+16:46:05:357  INFO 22676 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+16:46:05:357  INFO 22676 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5282 ms
+16:46:05:851  INFO 22676 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+16:46:14:597  INFO 22676 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+16:46:14:895 ERROR 22676 --- [main] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:46:19:281  INFO 22676 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+16:46:21:417  INFO 22676 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 8cf13c95-8ab1-45b9-bac1-2a27f67ad3a1
+16:46:21:418  INFO 22676 --- [main] com.alibaba.nacos.common.remote.client   : [8cf13c95-8ab1-45b9-bac1-2a27f67ad3a1] RpcClient init label, labels = {module=naming, source=sdk}
+16:46:21:418  INFO 22676 --- [main] com.alibaba.nacos.common.remote.client   : [8cf13c95-8ab1-45b9-bac1-2a27f67ad3a1] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+16:46:21:419  INFO 22676 --- [main] com.alibaba.nacos.common.remote.client   : [8cf13c95-8ab1-45b9-bac1-2a27f67ad3a1] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+16:46:21:419  INFO 22676 --- [main] com.alibaba.nacos.common.remote.client   : [8cf13c95-8ab1-45b9-bac1-2a27f67ad3a1] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+16:46:21:421  INFO 22676 --- [main] com.alibaba.nacos.common.remote.client   : [8cf13c95-8ab1-45b9-bac1-2a27f67ad3a1] Try to connect to server on start up, server: {serverIp = '192.168.116.132', server main port = 8848}
+16:46:21:544  INFO 22676 --- [main] com.alibaba.nacos.common.remote.client   : [8cf13c95-8ab1-45b9-bac1-2a27f67ad3a1] Success to connect to server [192.168.116.132:8848] on start up, connectionId = 1722501990480_192.168.116.1_57395
+16:46:21:544  INFO 22676 --- [main] com.alibaba.nacos.common.remote.client   : [8cf13c95-8ab1-45b9-bac1-2a27f67ad3a1] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+16:46:21:544  INFO 22676 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [8cf13c95-8ab1-45b9-bac1-2a27f67ad3a1] Notify connected event to listeners.
+16:46:21:544  INFO 22676 --- [main] com.alibaba.nacos.common.remote.client   : [8cf13c95-8ab1-45b9-bac1-2a27f67ad3a1] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$477/0x0000000801002998
+16:46:21:589  INFO 22676 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+16:46:21:612  INFO 22676 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP item-service 192.168.116.1:8081 register finished
+16:46:22:124  INFO 22676 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [8cf13c95-8ab1-45b9-bac1-2a27f67ad3a1] Receive server push request, request = NotifySubscriberRequest, requestId = 39
+16:46:22:133  INFO 22676 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [8cf13c95-8ab1-45b9-bac1-2a27f67ad3a1] Ack server push request, request = NotifySubscriberRequest, requestId = 39
+16:46:23:204  INFO 22676 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+16:46:23:213  INFO 22676 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+16:46:23:291  INFO 22676 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+16:46:23:596  INFO 22676 --- [main] com.hmall.item.ItemServiceApplication    : Started ItemServiceApplication in 32.116 seconds (JVM running for 33.983)
+16:46:23:613  INFO 22676 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=item-service.yaml, group=DEFAULT_GROUP
+16:46:23:615  INFO 22676 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=item-service-local.yaml, group=DEFAULT_GROUP
+16:46:23:616  INFO 22676 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=item-service, group=DEFAULT_GROUP
+16:46:43:100  INFO 13604 --- [main] com.hmall.item.ItemServiceApplication    : The following 1 profile is active: "local"
+16:46:45:670  INFO 13604 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=27172d74-f42e-3d47-aaa3-7bc0f707fb77
+16:46:45:827  INFO 13604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:46:45:828  INFO 13604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springApplicationContextProvider' of type [io.seata.spring.boot.autoconfigure.provider.SpringApplicationContextProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:46:45:830  INFO 13604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:46:45:940  INFO 13604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'failureHandler' of type [io.seata.tm.api.DefaultFailureHandlerImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:46:45:948  INFO 13604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:46:45:952  INFO 13604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:46:45:953  INFO 13604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$566/0x0000000801120b30] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:46:45:954  INFO 13604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:46:45:961  INFO 13604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springCloudAlibabaConfiguration' of type [io.seata.spring.boot.autoconfigure.properties.SpringCloudAlibabaConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:46:45:966  INFO 13604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'seataProperties' of type [io.seata.spring.boot.autoconfigure.properties.SeataProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:46:45:984  INFO 13604 --- [main] i.s.s.b.a.SeataAutoConfiguration         : Automatically configure Seata
+16:46:46:123  INFO 13604 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+16:46:46:140  INFO 13604 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+16:46:46:362  INFO 13604 --- [main] i.s.s.a.GlobalTransactionScanner         : Initializing Global Transaction Clients ... 
+16:46:46:567  INFO 13604 --- [main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+16:46:47:044  INFO 13604 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of e2bf8abb-0ba1-431f-a640-1930cfeb94d6
+16:46:47:044  INFO 13604 --- [main] com.alibaba.nacos.common.remote.client   : [e2bf8abb-0ba1-431f-a640-1930cfeb94d6] RpcClient init label, labels = {module=naming, source=sdk}
+16:46:47:049  INFO 13604 --- [main] com.alibaba.nacos.common.remote.client   : [e2bf8abb-0ba1-431f-a640-1930cfeb94d6] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+16:46:47:050  INFO 13604 --- [main] com.alibaba.nacos.common.remote.client   : [e2bf8abb-0ba1-431f-a640-1930cfeb94d6] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+16:46:47:051  INFO 13604 --- [main] com.alibaba.nacos.common.remote.client   : [e2bf8abb-0ba1-431f-a640-1930cfeb94d6] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+16:46:47:051  INFO 13604 --- [main] com.alibaba.nacos.common.remote.client   : [e2bf8abb-0ba1-431f-a640-1930cfeb94d6] Try to connect to server on start up, server: {serverIp = '192.168.116.132', server main port = 8848}
+16:46:47:210  INFO 13604 --- [main] com.alibaba.nacos.common.remote.client   : [e2bf8abb-0ba1-431f-a640-1930cfeb94d6] Success to connect to server [192.168.116.132:8848] on start up, connectionId = 1722502016126_192.168.116.1_57540
+16:46:47:210  INFO 13604 --- [main] com.alibaba.nacos.common.remote.client   : [e2bf8abb-0ba1-431f-a640-1930cfeb94d6] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+16:46:47:210  INFO 13604 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [e2bf8abb-0ba1-431f-a640-1930cfeb94d6] Notify connected event to listeners.
+16:46:47:210  INFO 13604 --- [main] com.alibaba.nacos.common.remote.client   : [e2bf8abb-0ba1-431f-a640-1930cfeb94d6] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$477/0x0000000801003020
+16:46:47:266 ERROR 13604 --- [main] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:46:47:267  INFO 13604 --- [main] i.s.s.a.GlobalTransactionScanner         : Transaction Manager Client is initialized. applicationId[item-service] txServiceGroup[hmall]
+16:46:47:294  INFO 13604 --- [main] io.seata.rm.datasource.AsyncWorker       : Async Commit Buffer Limit: 10000
+16:46:47:294  INFO 13604 --- [main] i.s.rm.datasource.xa.ResourceManagerXA   : ResourceManagerXA init ...
+16:46:47:321  INFO 13604 --- [main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+16:46:47:322  INFO 13604 --- [main] i.s.s.a.GlobalTransactionScanner         : Resource Manager is initialized. applicationId[item-service] txServiceGroup[hmall]
+16:46:47:322  INFO 13604 --- [main] i.s.s.a.GlobalTransactionScanner         : Global Transaction Clients are initialized. 
+16:46:47:326  INFO 13604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:46:47:762  INFO 13604 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [e2bf8abb-0ba1-431f-a640-1930cfeb94d6] Receive server push request, request = NotifySubscriberRequest, requestId = 43
+16:46:47:766  INFO 13604 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [e2bf8abb-0ba1-431f-a640-1930cfeb94d6] Ack server push request, request = NotifySubscriberRequest, requestId = 43
+16:46:48:071  INFO 13604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+16:46:48:073  INFO 13604 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+16:46:48:073  INFO 13604 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+16:46:48:074  INFO 13604 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+16:46:48:074  INFO 13604 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16:46:48:082  INFO 13604 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+16:46:48:102  INFO 13604 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+16:46:48:103  INFO 13604 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+16:46:48:558  INFO 13604 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+16:46:48:559  INFO 13604 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5397 ms
+16:46:48:953  INFO 13604 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+16:46:57:295  INFO 13604 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+16:46:57:436 ERROR 13604 --- [main] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:46:59:321  INFO 13604 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+16:47:00:163  INFO 13604 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of f5c4a57a-071c-4b7d-9012-17cc8379d36c
+16:47:00:163  INFO 13604 --- [main] com.alibaba.nacos.common.remote.client   : [f5c4a57a-071c-4b7d-9012-17cc8379d36c] RpcClient init label, labels = {module=naming, source=sdk}
+16:47:00:164  INFO 13604 --- [main] com.alibaba.nacos.common.remote.client   : [f5c4a57a-071c-4b7d-9012-17cc8379d36c] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+16:47:00:164  INFO 13604 --- [main] com.alibaba.nacos.common.remote.client   : [f5c4a57a-071c-4b7d-9012-17cc8379d36c] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+16:47:00:164  INFO 13604 --- [main] com.alibaba.nacos.common.remote.client   : [f5c4a57a-071c-4b7d-9012-17cc8379d36c] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+16:47:00:164  INFO 13604 --- [main] com.alibaba.nacos.common.remote.client   : [f5c4a57a-071c-4b7d-9012-17cc8379d36c] Try to connect to server on start up, server: {serverIp = '192.168.116.132', server main port = 8848}
+16:47:00:277  INFO 13604 --- [main] com.alibaba.nacos.common.remote.client   : [f5c4a57a-071c-4b7d-9012-17cc8379d36c] Success to connect to server [192.168.116.132:8848] on start up, connectionId = 1722502029217_192.168.116.1_57555
+16:47:00:277  INFO 13604 --- [main] com.alibaba.nacos.common.remote.client   : [f5c4a57a-071c-4b7d-9012-17cc8379d36c] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+16:47:00:277  INFO 13604 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [f5c4a57a-071c-4b7d-9012-17cc8379d36c] Notify connected event to listeners.
+16:47:00:277  INFO 13604 --- [main] com.alibaba.nacos.common.remote.client   : [f5c4a57a-071c-4b7d-9012-17cc8379d36c] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$477/0x0000000801003020
+16:47:00:297  INFO 13604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+16:47:00:304  INFO 13604 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP item-service 192.168.116.1:8083 register finished
+16:47:00:793  INFO 13604 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [f5c4a57a-071c-4b7d-9012-17cc8379d36c] Receive server push request, request = NotifySubscriberRequest, requestId = 46
+16:47:00:793  INFO 22676 --- [nacos-grpc-client-executor-14] com.alibaba.nacos.common.remote.client   : [8cf13c95-8ab1-45b9-bac1-2a27f67ad3a1] Receive server push request, request = NotifySubscriberRequest, requestId = 45
+16:47:00:795  INFO 13604 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [f5c4a57a-071c-4b7d-9012-17cc8379d36c] Ack server push request, request = NotifySubscriberRequest, requestId = 46
+16:47:00:797  INFO 22676 --- [nacos-grpc-client-executor-14] com.alibaba.nacos.common.remote.client   : [8cf13c95-8ab1-45b9-bac1-2a27f67ad3a1] Ack server push request, request = NotifySubscriberRequest, requestId = 45
+16:47:00:850  INFO 13604 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+16:47:00:852  INFO 13604 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+16:47:00:881  INFO 13604 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+16:47:01:009  INFO 13604 --- [main] com.hmall.item.ItemServiceApplication    : Started ItemServiceApplication in 27.815 seconds (JVM running for 29.916)
+16:47:01:016  INFO 13604 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=item-service.yaml, group=DEFAULT_GROUP
+16:47:01:016  INFO 13604 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=item-service-local.yaml, group=DEFAULT_GROUP
+16:47:01:017  INFO 13604 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=item-service, group=DEFAULT_GROUP
+16:47:03:027 ERROR 22676 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:47:03:983 ERROR 22676 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:47:13:022 ERROR 22676 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:47:13:974 ERROR 22676 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:47:23:021 ERROR 22676 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:47:23:974 ERROR 22676 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:47:33:022 ERROR 22676 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:47:33:974 ERROR 22676 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:47:43:022 ERROR 22676 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:47:43:974 ERROR 22676 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:47:46:546 ERROR 13604 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:47:47:320 ERROR 13604 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:47:53:022 ERROR 22676 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:47:53:974 ERROR 22676 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:47:56:545 ERROR 13604 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:47:57:320 ERROR 13604 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:48:03:022 ERROR 22676 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:48:03:974 ERROR 22676 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:48:06:546 ERROR 13604 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:48:07:320 ERROR 13604 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:48:13:022 ERROR 22676 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:48:13:974 ERROR 22676 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:48:16:545 ERROR 13604 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:48:17:320 ERROR 13604 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:48:23:022 ERROR 22676 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:48:23:976 ERROR 22676 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:48:26:546 ERROR 13604 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:48:27:320 ERROR 13604 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:48:33:023 ERROR 22676 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:48:33:975 ERROR 22676 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:48:36:545 ERROR 13604 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:48:37:320 ERROR 13604 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:48:43:022 ERROR 22676 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:48:43:975 ERROR 22676 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:48:46:545 ERROR 13604 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:48:47:320 ERROR 13604 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:48:53:022 ERROR 22676 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:48:53:975 ERROR 22676 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:48:56:545 ERROR 13604 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:48:57:322 ERROR 13604 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:49:03:022 ERROR 22676 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:49:03:975 ERROR 22676 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:49:06:555 ERROR 13604 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:49:07:321 ERROR 13604 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:49:13:021 ERROR 22676 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:49:13:981 ERROR 22676 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:49:16:545 ERROR 13604 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:49:17:320 ERROR 13604 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:49:23:022 ERROR 22676 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:49:23:974 ERROR 22676 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:49:26:545 ERROR 13604 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:49:27:320 ERROR 13604 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:49:33:023 ERROR 22676 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:49:33:975 ERROR 22676 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:49:36:545 ERROR 13604 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:49:37:321 ERROR 13604 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:49:43:021 ERROR 22676 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:49:43:977 ERROR 22676 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:49:46:546 ERROR 13604 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:49:47:329 ERROR 13604 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:49:53:022 ERROR 22676 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:49:53:975 ERROR 22676 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:49:56:546 ERROR 13604 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:49:57:323 ERROR 13604 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:50:03:034 ERROR 22676 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:50:03:975 ERROR 22676 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:50:06:546 ERROR 13604 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:50:07:320 ERROR 13604 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:50:13:022 ERROR 22676 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:50:13:975 ERROR 22676 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:50:16:546 ERROR 13604 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:50:17:320 ERROR 13604 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:50:23:022 ERROR 22676 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:50:23:975 ERROR 22676 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:50:26:545 ERROR 13604 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:50:27:326 ERROR 13604 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:50:33:024 ERROR 22676 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:50:33:986 ERROR 22676 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:50:36:553 ERROR 13604 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:50:37:321 ERROR 13604 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:50:43:031 ERROR 22676 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:50:43:975 ERROR 22676 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:50:46:546 ERROR 13604 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:50:47:323 ERROR 13604 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:50:53:022 ERROR 22676 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:50:53:982 ERROR 22676 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:50:56:550 ERROR 13604 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:50:57:321 ERROR 13604 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:51:03:023 ERROR 22676 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:51:03:977 ERROR 22676 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:51:06:003  INFO 22676 --- [nacos-grpc-client-executor-72] com.alibaba.nacos.common.remote.client   : [40d50f27-15c3-41d1-9bd0-d696fabd41ba] Receive server push request, request = NotifySubscriberRequest, requestId = 51
+16:51:06:003  INFO 13604 --- [nacos-grpc-client-executor-57] com.alibaba.nacos.common.remote.client   : [e2bf8abb-0ba1-431f-a640-1930cfeb94d6] Receive server push request, request = NotifySubscriberRequest, requestId = 50
+16:51:06:006  INFO 22676 --- [nacos-grpc-client-executor-72] com.alibaba.nacos.common.remote.client   : [40d50f27-15c3-41d1-9bd0-d696fabd41ba] Ack server push request, request = NotifySubscriberRequest, requestId = 51
+16:51:06:006  INFO 13604 --- [nacos-grpc-client-executor-57] com.alibaba.nacos.common.remote.client   : [e2bf8abb-0ba1-431f-a640-1930cfeb94d6] Ack server push request, request = NotifySubscriberRequest, requestId = 50
+16:51:06:545 ERROR 13604 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:51:07:321 ERROR 13604 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:51:08:698  INFO 22676 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:51:08:699  INFO 22676 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+16:51:08:700  INFO 22676 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+16:51:08:862 DEBUG 22676 --- [http-nio-8081-exec-1] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+16:51:08:888 DEBUG 22676 --- [http-nio-8081-exec-1] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+16:51:09:253 DEBUG 22676 --- [http-nio-8081-exec-1] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+16:51:09:260 DEBUG 22676 --- [http-nio-8081-exec-1] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id, name, price, stock, image, category, brand, spec, sold, comment_count, isAD, status, create_time, update_time, creater, updater FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
+16:51:09:261 DEBUG 22676 --- [http-nio-8081-exec-1] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 20(Long)
+16:51:09:529 DEBUG 22676 --- [http-nio-8081-exec-1] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 20
+16:51:11:885 DEBUG 22676 --- [http-nio-8081-exec-2] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+16:51:11:885 DEBUG 22676 --- [http-nio-8081-exec-2] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100001511821(Long)
+16:51:11:896 DEBUG 22676 --- [http-nio-8081-exec-2] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+16:51:13:025  INFO 22676 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.116.132:8099
+16:51:13:086  INFO 22676 --- [timeoutChecker_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:TMROLE,address:192.168.116.132:8099,msg:< RegisterTMRequest{applicationId='item-service', transactionServiceGroup='hmall'} >
+16:51:13:345  WARN 22676 --- [NettyClientSelector_TMROLE_1_1] ServiceLoader$InnerEnhancedServiceLoader : Load [io.seata.serializer.hessian.HessianSerializer] class fail. com/caucho/hessian/io/AbstractHessianOutput
+16:51:13:495  INFO 22676 --- [timeoutChecker_1_1] i.s.c.rpc.netty.TmNettyRemotingClient    : register TM success. client version:1.5.2, server version:1.5.2,channel:[id: 0x60ad86b2, L:/192.168.116.1:57695 - R:/192.168.116.132:8099]
+16:51:13:499  INFO 22676 --- [timeoutChecker_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 190 ms, version:1.5.2,role:TMROLE,channel:[id: 0x60ad86b2, L:/192.168.116.1:57695 - R:/192.168.116.132:8099]
+16:51:13:974  INFO 22676 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.116.132:8099
+16:51:13:974  INFO 22676 --- [timeoutChecker_2_1] i.s.c.rpc.netty.RmNettyRemotingClient    : RM will register :jdbc:mysql://192.168.116.132:3306/hm-item
+16:51:13:975  INFO 22676 --- [timeoutChecker_2_1] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:RMROLE,address:192.168.116.132:8099,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://192.168.116.132:3306/hm-item', applicationId='item-service', transactionServiceGroup='hmall'} >
+16:51:13:993  INFO 22676 --- [timeoutChecker_2_1] i.s.c.rpc.netty.RmNettyRemotingClient    : register RM success. client version:1.5.2, server version:1.5.2,channel:[id: 0x34cbdf72, L:/192.168.116.1:57697 - R:/192.168.116.132:8099]
+16:51:13:994  INFO 22676 --- [timeoutChecker_2_1] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 18 ms, version:1.5.2,role:RMROLE,channel:[id: 0x34cbdf72, L:/192.168.116.1:57697 - R:/192.168.116.132:8099]
+16:51:16:546 ERROR 13604 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:51:17:321 ERROR 13604 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:51:26:545 ERROR 13604 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:51:27:332 ERROR 13604 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:51:32:098 DEBUG 22676 --- [http-nio-8081-exec-3] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+16:51:32:099 DEBUG 22676 --- [http-nio-8081-exec-3] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100001511821(Long)
+16:51:32:101 DEBUG 22676 --- [http-nio-8081-exec-3] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+16:51:32:406  INFO 13604 --- [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:51:32:406  INFO 13604 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+16:51:32:408  INFO 13604 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+16:51:32:491 DEBUG 13604 --- [http-nio-8083-exec-1] c.h.item.mapper.ItemMapper.updateStock   : ==>  Preparing: UPDATE item SET stock = stock - ? WHERE id = ?
+16:51:32:527 DEBUG 13604 --- [http-nio-8083-exec-1] c.h.item.mapper.ItemMapper.updateStock   : ==> Parameters: 1(Integer), 100001511821(Long)
+16:51:36:545 ERROR 13604 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:51:37:320 ERROR 13604 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:51:46:560 ERROR 13604 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:51:47:320 ERROR 13604 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+16:51:56:547  INFO 13604 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.116.132:8099
+16:51:56:612  INFO 13604 --- [timeoutChecker_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:TMROLE,address:192.168.116.132:8099,msg:< RegisterTMRequest{applicationId='item-service', transactionServiceGroup='hmall'} >
+16:51:56:898  WARN 13604 --- [NettyClientSelector_TMROLE_1_1] ServiceLoader$InnerEnhancedServiceLoader : Load [io.seata.serializer.hessian.HessianSerializer] class fail. com/caucho/hessian/io/AbstractHessianOutput
+16:51:56:920  INFO 13604 --- [timeoutChecker_1_1] i.s.c.rpc.netty.TmNettyRemotingClient    : register TM success. client version:1.5.2, server version:1.5.2,channel:[id: 0x982ab097, L:/192.168.116.1:57740 - R:/192.168.116.132:8099]
+16:51:56:925  INFO 13604 --- [timeoutChecker_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 53 ms, version:1.5.2,role:TMROLE,channel:[id: 0x982ab097, L:/192.168.116.1:57740 - R:/192.168.116.132:8099]
+16:51:57:321  INFO 13604 --- [timeoutChecker_2_1] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.116.132:8099
+16:51:57:321  INFO 13604 --- [timeoutChecker_2_1] i.s.c.rpc.netty.RmNettyRemotingClient    : RM will register :jdbc:mysql://192.168.116.132:3306/hm-item
+16:51:57:321  INFO 13604 --- [timeoutChecker_2_1] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:RMROLE,address:192.168.116.132:8099,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://192.168.116.132:3306/hm-item', applicationId='item-service', transactionServiceGroup='hmall'} >
+16:51:57:331  INFO 13604 --- [timeoutChecker_2_1] i.s.c.rpc.netty.RmNettyRemotingClient    : register RM success. client version:1.5.2, server version:1.5.2,channel:[id: 0xf2213820, L:/192.168.116.1:57741 - R:/192.168.116.132:8099]
+16:51:57:331  INFO 13604 --- [timeoutChecker_2_1] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 7 ms, version:1.5.2,role:RMROLE,channel:[id: 0xf2213820, L:/192.168.116.1:57741 - R:/192.168.116.132:8099]
+16:52:23:727 DEBUG 22676 --- [http-nio-8081-exec-9] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+16:52:23:727 DEBUG 22676 --- [http-nio-8081-exec-9] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100001511821(Long)
+16:52:23:735 DEBUG 22676 --- [http-nio-8081-exec-9] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+16:52:23:764 DEBUG 13604 --- [http-nio-8083-exec-5] c.h.item.mapper.ItemMapper.updateStock   : ==>  Preparing: UPDATE item SET stock = stock - ? WHERE id = ?
+16:52:23:765 DEBUG 13604 --- [http-nio-8083-exec-5] c.h.item.mapper.ItemMapper.updateStock   : ==> Parameters: 1(Integer), 100001511821(Long)
+16:57:25:971  WARN 22676 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+16:57:25:971  WARN 22676 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+16:57:25:972  WARN 22676 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+16:57:25:973  WARN 22676 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+16:57:26:014  INFO 22676 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+16:57:26:022  INFO 22676 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+16:57:26:031  WARN 13604 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+16:57:26:031  WARN 13604 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+16:57:26:031  WARN 13604 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+16:57:26:032  WARN 13604 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+16:57:26:073  INFO 13604 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+16:57:26:078  INFO 13604 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+16:57:26:326  INFO 22676 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+16:57:26:326  INFO 22676 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@8acd137[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+16:57:26:326  INFO 22676 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1722501990480_192.168.116.1_57395
+16:57:26:329  INFO 22676 --- [nacos-grpc-client-executor-149] c.a.n.c.remote.client.grpc.GrpcClient    : [1722501990480_192.168.116.1_57395]Ignore complete event,isRunning:false,isAbandon=false
+16:57:26:333  INFO 22676 --- [SpringContextShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@bd36609[Running, pool size = 6, active threads = 0, queued tasks = 0, completed tasks = 150]
+16:57:26:339  INFO 22676 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+16:57:26:373  INFO 22676 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+16:57:26:375  INFO 22676 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : channel inactive: [id: 0x60ad86b2, L:/192.168.116.1:57695 ! R:/192.168.116.132:8099]
+16:57:26:375  INFO 22676 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : channel inactive: [id: 0x34cbdf72, L:/192.168.116.1:57697 ! R:/192.168.116.132:8099]
+16:57:26:375  INFO 22676 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.netty.NettyClientChannelManager  : return to pool, rm channel:[id: 0x60ad86b2, L:/192.168.116.1:57695 ! R:/192.168.116.132:8099]
+16:57:26:375  INFO 22676 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.netty.NettyClientChannelManager  : return to pool, rm channel:[id: 0x34cbdf72, L:/192.168.116.1:57697 ! R:/192.168.116.132:8099]
+16:57:26:375  INFO 22676 --- [NettyClientSelector_TMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : channel valid false,channel:[id: 0x60ad86b2, L:/192.168.116.1:57695 ! R:/192.168.116.132:8099]
+16:57:26:375  INFO 22676 --- [NettyClientSelector_RMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : channel valid false,channel:[id: 0x34cbdf72, L:/192.168.116.1:57697 ! R:/192.168.116.132:8099]
+16:57:26:376  INFO 22676 --- [NettyClientSelector_TMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : will destroy channel:[id: 0x60ad86b2, L:/192.168.116.1:57695 ! R:/192.168.116.132:8099]
+16:57:26:376  INFO 22676 --- [NettyClientSelector_RMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : will destroy channel:[id: 0x34cbdf72, L:/192.168.116.1:57697 ! R:/192.168.116.132:8099]
+16:57:26:376  INFO 22676 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0x60ad86b2, L:/192.168.116.1:57695 ! R:/192.168.116.132:8099]) will closed
+16:57:26:376  INFO 22676 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0x34cbdf72, L:/192.168.116.1:57697 ! R:/192.168.116.132:8099]) will closed
+16:57:26:376  INFO 22676 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0x34cbdf72, L:/192.168.116.1:57697 ! R:/192.168.116.132:8099]) will closed
+16:57:26:376  INFO 22676 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0x60ad86b2, L:/192.168.116.1:57695 ! R:/192.168.116.132:8099]) will closed
+16:57:26:382  INFO 13604 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+16:57:26:383  INFO 13604 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@650d011a[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+16:57:26:383  INFO 13604 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1722502029217_192.168.116.1_57555
+16:57:26:387  INFO 13604 --- [SpringContextShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@6f285aac[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 139]
+16:57:26:391  INFO 13604 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+16:57:26:421  INFO 13604 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+16:57:26:423  INFO 13604 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : channel inactive: [id: 0xf2213820, L:/192.168.116.1:57741 ! R:/192.168.116.132:8099]
+16:57:26:424  INFO 13604 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.netty.NettyClientChannelManager  : return to pool, rm channel:[id: 0xf2213820, L:/192.168.116.1:57741 ! R:/192.168.116.132:8099]
+16:57:26:424  INFO 13604 --- [NettyClientSelector_RMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : channel valid false,channel:[id: 0xf2213820, L:/192.168.116.1:57741 ! R:/192.168.116.132:8099]
+16:57:26:424  INFO 13604 --- [NettyClientSelector_RMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : will destroy channel:[id: 0xf2213820, L:/192.168.116.1:57741 ! R:/192.168.116.132:8099]
+16:57:26:424  INFO 13604 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xf2213820, L:/192.168.116.1:57741 ! R:/192.168.116.132:8099]) will closed
+16:57:26:424  INFO 13604 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xf2213820, L:/192.168.116.1:57741 ! R:/192.168.116.132:8099]) will closed

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="hm-service" />
+      <module name="hm-common" />
+      <module name="hmall" />
+      <module name="item-service" />
+      <module name="cart-service" />
+      <module name="hm-api" />
+      <module name="user-service" />
+    </loaded-modules>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5fc3d221-759d-4f4c-a2b8-40b050ae5ef0" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/trade-service">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2jgPJuD4oUcELl5tVlH3hZdS7Jr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;android.gradle.sync.needed&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;15&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/hmall/item-service/src/main/resource&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ],
+    &quot;RunConfigurationTargetLRU&quot;: [
+      &quot;7f857e98-17cd-42cd-a054-30c70ad8ae4a&quot;,
+      &quot;7f857e98-17cd-42cd-a054-30c70ad8ae4a/schema/\&quot;hm-cart\&quot;&quot;,
+      &quot;7f857e98-17cd-42cd-a054-30c70ad8ae4a/schema/\&quot;hm-item\&quot;&quot;,
+      &quot;7f857e98-17cd-42cd-a054-30c70ad8ae4a/schema/\&quot;hm-trade\&quot;&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\hmall\item-service\src\main\resource" />
+      <recent name="D:\hmall\trade-service\src\main\resources" />
+      <recent name="D:\hmall\hm-gateway\src\main\resource" />
+      <recent name="D:\hmall\cart-service\src\main\resource" />
+      <recent name="D:\hmall\hm-gateway\src\main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\hmall\cart-service\src\main\resource" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hmall.gateway.util" />
+      <recent name="com.hmall.gateway.config" />
+      <recent name="com.hmall.item.controller" />
+      <recent name="com.hmall.pay.controller" />
+      <recent name="com.hmall.pay.domain.vo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.PayServiceApplication">
+    <configuration name="hm-pay.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="E:/heima-mysql/hm-pay.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="7f857e98-17cd-42cd-a054-30c70ad8ae4a" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hm-trade.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="E:/heima-mysql/hm-trade.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="7f857e98-17cd-42cd-a054-30c70ad8ae4a" />
+      <method v="2" />
+    </configuration>
+    <configuration name="seata-at.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="E:/sentinel/资料/seata-at.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="7f857e98-17cd-42cd-a054-30c70ad8ae4a" namespace="schema/&quot;hm-trade&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="seata-tc.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="E:/sentinel/资料/seata-tc.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="7f857e98-17cd-42cd-a054-30c70ad8ae4a" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CartServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" value="local" />
+      <module name="cart-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmall.cart.CartServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HMallApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" value="local" />
+      <module name="hm-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmall.HMallApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HmApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="hm-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmall.api.HmApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HmGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="hm-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmall.gateway.HmGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" value="local" />
+      <module name="item-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmall.item.ItemServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemServiceApplication2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" value="local" />
+      <module name="item-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmall.item.ItemServiceApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8083" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" value="local" />
+      <module name="pay-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmall.pay.PayServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TradeServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" value="local" />
+      <module name="trade-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmall.trade.TradeServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" value="local" />
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmall.user.UserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" value="loacl" />
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmall.user.UserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.HmGatewayApplication" />
+      <item itemvalue="Spring Boot.TradeServiceApplication" />
+      <item itemvalue="Spring Boot.PayServiceApplication" />
+      <item itemvalue="Spring Boot.CartServiceApplication" />
+      <item itemvalue="Spring Boot.UserServiceApplication" />
+      <item itemvalue="Spring Boot.HmApiApplication" />
+      <item itemvalue="Spring Boot.ItemServiceApplication2" />
+      <item itemvalue="Spring Boot.HMallApplication" />
+      <item itemvalue="Spring Boot.ItemServiceApplication" />
+      <item itemvalue="数据库脚本.seata-at.sql" />
+      <item itemvalue="数据库脚本.seata-tc.sql" />
+      <item itemvalue="数据库脚本.hm-pay.sql" />
+      <item itemvalue="数据库脚本.hm-trade.sql" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="数据库脚本.seata-at.sql" />
+        <item itemvalue="数据库脚本.seata-tc.sql" />
+        <item itemvalue="数据库脚本.hm-pay.sql" />
+        <item itemvalue="数据库脚本.hm-trade.sql" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="5fc3d221-759d-4f4c-a2b8-40b050ae5ef0" name="更改" comment="" />
+      <created>1721805680734</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721805680734</updated>
+      <workItem from="1721805681965" duration="5276000" />
+      <workItem from="1721882285428" duration="2361000" />
+      <workItem from="1721984750429" duration="510000" />
+      <workItem from="1721985924281" duration="10013000" />
+      <workItem from="1722004246011" duration="1260000" />
+      <workItem from="1722047254640" duration="2009000" />
+      <workItem from="1722052251691" duration="1477000" />
+      <workItem from="1722053937417" duration="1881000" />
+      <workItem from="1722056073143" duration="2445000" />
+      <workItem from="1722058744209" duration="91000" />
+      <workItem from="1722058884491" duration="4338000" />
+      <workItem from="1722069665567" duration="97000" />
+      <workItem from="1722069772256" duration="10682000" />
+      <workItem from="1722139050527" duration="5559000" />
+      <workItem from="1722144838477" duration="1866000" />
+      <workItem from="1722146723811" duration="6733000" />
+      <workItem from="1722159245843" duration="2254000" />
+      <workItem from="1722161571684" duration="4310000" />
+      <workItem from="1722170496027" duration="8206000" />
+      <workItem from="1722220135881" duration="19090000" />
+      <workItem from="1722303186625" duration="17677000" />
+      <workItem from="1722395220954" duration="13254000" />
+      <workItem from="1723881724753" duration="19000" />
+      <workItem from="1725687188778" duration="11000" />
+      <workItem from="1725796668104" duration="709000" />
+      <workItem from="1725811487840" duration="603000" />
+      <workItem from="1725846782593" duration="34000" />
+      <workItem from="1725873935902" duration="1300000" />
+      <workItem from="1725956174285" duration="3190000" />
+      <workItem from="1726024418906" duration="598000" />
+      <workItem from="1726209460752" duration="24000" />
+      <workItem from="1726227412406" duration="2003000" />
+      <workItem from="1726637999076" duration="1837000" />
+      <workItem from="1726710469472" duration="763000" />
+      <workItem from="1726711247344" duration="3445000" />
+      <workItem from="1726821181753" duration="1885000" />
+      <workItem from="1726844337620" duration="603000" />
+      <workItem from="1726892736220" duration="990000" />
+      <workItem from="1726905552265" duration="352000" />
+      <workItem from="1726923119711" duration="6533000" />
+      <workItem from="1726972973098" duration="2323000" />
+      <workItem from="1726997205399" duration="10277000" />
+      <workItem from="1727089206768" duration="602000" />
+      <workItem from="1727156822849" duration="595000" />
+      <workItem from="1727172975682" duration="149000" />
+      <workItem from="1727192026462" duration="1807000" />
+      <workItem from="1727328226140" duration="13000" />
+      <workItem from="1727593085999" duration="1238000" />
+      <workItem from="1728041549436" duration="3488000" />
+      <workItem from="1728456689347" duration="593000" />
+      <workItem from="1728535442034" duration="14000" />
+      <workItem from="1728574074524" duration="661000" />
+      <workItem from="1728656273942" duration="11000" />
+      <workItem from="1729584915652" duration="1574000" />
+      <workItem from="1729606151778" duration="749000" />
+      <workItem from="1729672028671" duration="2145000" />
+      <workItem from="1729782644911" duration="1632000" />
+      <workItem from="1729916298686" duration="625000" />
+      <workItem from="1730270396959" duration="1865000" />
+      <workItem from="1730734346302" duration="12000" />
+      <workItem from="1730897498840" duration="13000" />
+      <workItem from="1731143470527" duration="1934000" />
+      <workItem from="1731255986138" duration="43000" />
+      <workItem from="1731312119188" duration="603000" />
+      <workItem from="1731654109847" duration="14000" />
+      <workItem from="1735354526717" duration="38000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
